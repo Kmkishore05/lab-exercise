@@ -1,0 +1,61 @@
+h3.labex{text-align: center;
+    font-family: sans-serif;
+    text-align: center;
+    color:white}
+
+h1{-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:white;
+    text-size-adjust: 50px;}
+
+table.t{width:  auto;
+    margin-left: auto; 
+    margin-right: auto;
+    border: 0 px;}
+
+div.a{background: rgb( 256,256,256, 0.3);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;}
+
+q{padding: 50px;}
+
+th{background:brown 100%;
+    border:0px;
+    text-align: center;
+    font-size: 25px;
+    font-family:Felix Titling;
+    color: skyblue}
+
+td{ border:0px;
+    font-size: 20px;
+    padding: 15px;
+    font-family: Calibri;}
+
+img{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50% }
+
+button{ margin-left: auto; 
+    margin-right: auto;
+    display: block;
+    width: 400px;
+    height: 100px;
+    background-color:black ;
+    border-radius: 20px;
+    font-size: 40px;
+    border: 5px outset green;}
+
+button:hover{
+    background-color: red;
+    color: blue;
+}
+
+p.p2{ color: white;
+     font-family: MS Reference Sans Serif;}
+
+h2.he1{font-family: Calibri;
+    color: orange ;     font-size: 25px;}
+    
+li{font-family: Calibri;font-size: 20px;color:floralwhite}
+
