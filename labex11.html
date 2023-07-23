@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jombo</title>
+    <script src="labex11.js"></script>
+    <style>
+        div {
+            margin: 10px 0;
+        }
+        label{
+            font-size: 20px;
+        }
+        input{
+            width: 60%;
+            margin-bottom: 5px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 1px solid grey;
+        }
+        button{
+            padding: 10px 40px;
+            border-radius: 50px;
+            border: 2px solid #000;
+            background-color: #fff;
+
+        }
+
+    </style>
+</head>
+<body style="background-color: greenyellow;">
+    <h2>JavaScript Validation</h2>
+
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        <div>
+            <label for="name">Name</label><br>
+            <input type="text" name="fname" id="name" placeholder="First name">
+            <input type="text" name="lname" id="name" placeholder="Last name">
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="Email">
+        </div>
+        <div>
+            <label for="pwd">Password</label><br>
+            <input type="password" name="password" id="pwd" placeholder="Password">
+        </div>
+        <div>
+            <label for="rpwd">Confirm password</label><br>
+            <input type="password" name="rpassword" id="rpwd" placeholder="Confirm password">
+        </div>
+            <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

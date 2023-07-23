@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+         <script>
+           $(document).ready(function (){
+    $("#change").click(function (){
+        $("textarea").css({
+            'border': '4px solid rgba(255, 10, 60, 0.5)',
+            'border-radius': '5px',
+            'padding': '4px 10px'
+        });
+    });
+    $("#changep").click(function (){
+        $("p").css({
+            'border': '2px solid red',
+            'padding': '5px 10px',
+            'border-radius': '5px'
+        });
+    });
+});
+         </script>
+        <script src="jquery.js"></script>
+    </head>
+    <body>
+        <form>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Name">
+            </div>
+            <div>
+                <label for="addr1">Address 1</label>
+                <textarea name="addr1" id="addr1" cols="250" rows="10" placeholder="Address 1"></textarea>
+            </div>
+            <div>
+                <label for="addr1">Address 1</label>
+                <textarea name="addr1" id="addr1" cols="250" rows="10" placeholder="Address 2"></textarea>
+            </div>
+        </form>
+        <button id="change">Change</button>
+        <div>
+            <p>Random pargarph</p>
+            <p>Change the styles</p>
+            <div>
+                <h6>Border wouldn't change</h6>
+                <p>Border will change</p>
+            </div>
+        </div>
+        <div>
+            <span>Click to below to change style of all p tags</span>
+            <button id="changep">Change</button>
+        </div>
+    </body>
+</html>

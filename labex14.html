@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JQuery Quotes</title>
+        <script src="jquery.js"></script>
+        <script>
+            $(document).ready(function (){
+    $("#hide").click(function (){
+        $(".flowDown").hide();
+    });
+    $("#show").click(function (){
+        $(".flowDown").show();
+    })
+    $("#closeNotification").click(function (){
+        $(".cls1").fadeOut(1000);
+        $(".cls2").fadeOut(1000);
+        $(".cls3").fadeOut(1000);
+    })
+    $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+    });
+});
+        </script>
+        <style> 
+            #panel, #flip {
+                margin: 20px 0;
+                padding: 5px;
+                text-align: center;
+                background-color: rgba(240, 9, 19, 0.1);
+                border: solid 1px #c3c3c3;
+            }
+            
+            #panel {
+                padding: 10px 50px;
+                display: none;
+            }
+            .cls1, .cls2, .cls3{
+                padding: 5px 20px;
+                margin: 4px 0;
+                background-color: rgba(240, 9, 19, 0.1);
+                border: 2px solid rgba(255, 9, 60, 0.2);
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="show">Show</button>
+        <button id="hide">Hide</button>
+        <div class="flowDown">
+            <h3>Animation goes here</h3>
+            <p>Hovers down a bit</p>
+        </div>
+        <div>
+            <h1>Notifications</h1>
+            <button id="closeNotification">Clear all</button>
+            <div class="cls1">
+                <p>Click close button</p>
+            </div>
+            <div class="cls2">
+                <p>Click close button</p>
+            </div>
+            <div class="cls3">
+                <p>Click close button</p>
+            </div>
+        </div>
+        <div>
+            <div id="flip">Dropdown</div>
+            <div id="panel">
+                <p>HTML</p>
+                <p>CSS</p>
+                <P>JS</P>
+
+                <P>JQUERY</P>
+                <P>PHP</P>
+            </div>
+        </div>
+    </body>
+</html>
