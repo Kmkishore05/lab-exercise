@@ -16,7 +16,7 @@ To run any project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/frontend-projects-portfolio.git
+   git clone https://github.com/Kmkishore05/lab-exercise.git
    ```
 
 2. Navigate to the project folder:
@@ -24,15 +24,7 @@ To run any project locally:
    cd project-name
    ```
 
-3. Install dependencies (if applicable):
-   ```bash
-   npm install
-   ```
 
-4. Run the project:
-   ```bash
-   npm start
-   ```
 
 ---
 
